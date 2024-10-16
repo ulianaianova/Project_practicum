@@ -9,3 +9,8 @@ The following parameters have the greatest impact on the cost of an apartment (i
 2. Number of rooms
 3. Distance to the center
 4. Floor
+
+## Project Tools:
+- Python
+- Pandas
+- Matplotlib
