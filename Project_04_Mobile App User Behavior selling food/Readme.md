@@ -19,4 +19,8 @@ Key events in the app, such as the home screen and the offer screen, occur most 
 
 ## **A/B Test Conclusion:**
 None of the events showed statistically significant differences between the control groups (246 and 247) and the experimental group (248). **This means that the font change did not have a significant impact on user behavior for all tested events.**
-
+## **Project Tools**
+- Python
+- Pandas
+- Seaborn
+- Plotly
