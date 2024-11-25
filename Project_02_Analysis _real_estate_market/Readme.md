@@ -10,7 +10,25 @@ The following parameters have the greatest impact on the cost of an apartment (i
 3. Distance to the center
 4. Floor
 
-## Project Tools:
-- Python
-- Pandas
-- Matplotlib
+## Project Tools
+
+- **Python**
+- **Pandas**
+- **Matplotlib**
+
+## Skills Used in the Project
+
+- **Data Preprocessing:** Cleaning data, handling missing values, and data transformation.
+- **Exploratory Data Analysis (EDA):** Analyzing data to uncover patterns, trends, and distributions.
+- **Data Visualization:** Creating charts and plots (e.g., histograms, boxplots, scatter plots) for data interpretation.
+
+## Keywords
+
+- **Data Processing**
+- **Histogram**
+- **Boxplot**
+- **Scattermatrix**
+- **Categorization**
+- **Scatterplot**
+- **Fraud Monitoring**
+
