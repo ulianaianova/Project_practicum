@@ -107,5 +107,25 @@ For the 2017 advertising campaign, it is essential to consider regional preferen
 
 ---
 
-*This analysis can be useful for optimizing advertising strategies and boosting video game sales in 2017.*
+## Project Tools
+- **Python**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
+- **NumPy**
+- **SciPy**
+
+## Skills Used in the Project
+- **Data Preprocessing:** Handling missing values, transforming data types, and feature engineering.
+- **Exploratory Data Analysis (EDA):** Visualizing and summarizing data to uncover patterns, trends, and outliers.
+- **Descriptive Statistics:** Calculating measures like mean, median, mode, standard deviation, etc., to understand the distribution of data.
+- **Statistical Hypothesis Testing:** Conducting t-tests and other statistical tests to validate assumptions and draw conclusions from data.
+
+## Keywords
+- **Data Processing**
+- **Scatterplot**
+- **Barplot**
+- **Statistical Test**
+- **t-test**
+
 
