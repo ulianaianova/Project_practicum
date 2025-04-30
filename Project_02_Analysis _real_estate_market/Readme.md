@@ -1,34 +1,27 @@
-# Analysis of the St. Petersburg Real Estate Market
+# Анализ рынка недвижимости Санкт-Петербурга
 
-## Project Objective:
-Based on **Yandex.Real Estate** service data, establish the dependence of the final price of a sold apartment on its various parameters, and formulate proposals on the composition of the key parameters of the future ad tracking system.
+## Цель проекта:
+На основе данных сервиса **Яндекс.Недвижимость** определить зависимость итоговой цены проданной квартиры от различных параметров, а также сформулировать предложения по составу ключевых параметров для будущей системы отслеживания объявлений.
 
-## Research Conclusion:
-The following parameters have the greatest impact on the cost of an apartment (in descending order of influence):
-1. Total area
-2. Number of rooms
-3. Distance to the center
-4. Floor
+## Выводы исследования:
+Наибольшее влияние на стоимость квартиры оказывают следующие параметры (в порядке убывания значимости):
+1. Общая площадь
+2. Количество комнат
+3. Расстояние до центра
+4. Этаж
 
-## Project Tools
+## Используемые инструменты
 
 - **Python**
 - **Pandas**
 - **Matplotlib**
 
-## Skills Used in the Project
+## Навыки, применённые в проекте
 
-- **Data Preprocessing:** Cleaning data, handling missing values, and data transformation.
-- **Exploratory Data Analysis (EDA):** Analyzing data to uncover patterns, trends, and distributions.
-- **Data Visualization:** Creating charts and plots (e.g., histograms, boxplots, scatter plots) for data interpretation.
+- **Предобработка данных:** Очистка, работа с пропущенными значениями и трансформация данных.
+- **Исследовательский анализ данных (EDA):** Анализ данных для выявления закономерностей, трендов и распределений.
+- **Визуализация данных:** Построение графиков и диаграмм (гистограммы, boxplot, scatter plot) для интерпретации информации.
 
-## Keywords
 
-- **Data Processing**
-- **Histogram**
-- **Boxplot**
-- **Scattermatrix**
-- **Categorization**
-- **Scatterplot**
-- **Fraud Monitoring**
+
 
