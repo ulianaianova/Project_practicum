@@ -1,13 +1,21 @@
-# **Research of Catering Establishments in Moscow**
+# Исследование заведений общественного питания в Москве
 
-## **Project Objective**
-Based on open data from **Yandex Maps** and **Yandex Business** services for the summer of 2022, the goal is to prepare a study of the Moscow market, identify interesting features, and present the results. These insights will help investors choose an optimal location for opening a catering establishment.
+## Цель проекта
+На основе открытых данных сервисов **Яндекс.Карты** и **Яндекс.Бизнес** за лето 2022 года подготовить исследование московского рынка, выявить интересные особенности и представить результаты. Полученные инсайты помогут инвесторам выбрать оптимальное место для открытия заведения общественного питания.
 
-## **Conclusion**
-- Opening a coffee shop in Moscow requires careful planning and analysis. Given the high competition, especially in the Central Administrative District, it is important to find unique advantages and offers to attract customers. Ensuring high-quality products and service, reasonable pricing policies, and an effective marketing strategy will be key factors for the success of a coffee shop.
+## Выводы
+Открытие кофейни в Москве требует тщательного планирования и анализа.  
+Учитывая высокую конкуренцию, особенно в Центральном административном округе, важно найти уникальные преимущества и предложения для привлечения клиентов.  
+Ключевыми факторами успеха будут: высокое качество продукции и сервиса, разумная ценовая политика и эффективная маркетинговая стратегия.
 
-## **Project Tools**
-- Python
-- Pandas
-- Seaborn
+## Используемые инструменты
+- Python  
+- Pandas  
+- Seaborn  
 - Plotly
+
+## Навыки, применённые в проекте
+- **Обработка данных**  
+- **Визуализация данных**  
+- **Создание презентаций**
+
