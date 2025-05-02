@@ -1,44 +1,50 @@
-# **Analysis of Business Indicators for the Procrastinate Pro+ Entertainment Application**
+# Анализ бизнес-показателей развлекательного приложения Procrastinate Pro+
 
-**Customer**
+## Заказчик
+Приложение **Procrastinate Pro+**
 
-Procrastinate Pro+ Application
+## Цель исследования
+С использованием внутренних данных компании необходимо ответить на следующие вопросы:
+- Откуда приходят пользователи и какие устройства они используют.
+- Стоимость привлечения пользователей из различных рекламных каналов.
+- Доход, генерируемый одним клиентом.
+- Срок окупаемости затрат на привлечение.
+- Факторы, ограничивающие рост пользовательской базы.
 
-**Research Objective**
+## Выводы
 
-Using company data, the analysis aims to address the following questions:
-- Where users come from and which devices they use.
-- Cost of acquiring users from different advertising channels.
-- Revenue generated per client.
-- When user acquisition costs break even.
-- Factors limiting customer acquisition.
+### Основные причины неэффективности в привлечении пользователей:
 
-## **Conclusion**
+- **Высокие рекламные расходы** в каналах **FaceBoom** и **TipTop** (США), а также **AdNonSence** (Европа):  
+  - Высокая цена за привлечение (CPA) с горизонтом окупаемости в 2 недели — это нерентабельно.  
+  - Плохая удерживаемость платящих пользователей из каналов FaceBoom и AdNonSence.  
+  - Канал TipTop показал крайне низкую эффективность — стоимость привлечения пользователей утроилась за период.
 
-1. **Key Factors Behind Inefficiencies in User Acquisition**
-   - High advertising costs associated with FaceBoom and TipTop in the US, and AdNonSence in Europe:
-      - High cost per acquisition (CPA) for these channels, with a break-even horizon of two weeks, proving unsustainable.
-      - Poor retention rates among paying users from FaceBoom and AdNonSence.
-      - TipTop shows minimal effectiveness, with user acquisition costs tripling over the period.
-   - Device-Specific Payback Issues:
-      - Payback issues persist across devices (Mac, iPhone, Android) except for PC users.
-      - iPhone and Android users show initial payback, possibly due to time-sensitive campaigns attracting short-term interest.
+- **Проблемы с окупаемостью по устройствам:**  
+  - Проблемы с окупаемостью наблюдаются на всех устройствах, кроме ПК.  
+  - Пользователи iPhone и Android показывают краткосрочную окупаемость, вероятно, из-за временных рекламных акций.
 
-2. **Recommendations for the Marketing Department**
-   - **United States**: As a primary market, re-evaluate strategies with TipTop and FaceBoom to optimize spending and improve user quality.
-   - **Europe**: Reallocate budget from AdNonSence to channels with higher payback, such as LeapBob, OppleCreativeMedia, and WahooNetBanner.
-   - **Organic Traffic**: Prioritize engagement with organic users as they represent a significant portion of app visitors.
-   - **PC and Android Users**: Increase focus on PC and Android users to boost Lifetime Value (LTV) and retention rates.
-   - **Budget Reallocation in the US**: Shift budget from ineffective sources to MediaTornado, RocketSuperAds, and YRabbit.
-   - **Mobile User Retention**: Develop targeted retention strategies for mobile users as they comprise the core audience.
-   - **Competitive and Audience Analysis for Mac and iPhone**: Conduct in-depth analysis to refine acquisition strategies and reduce costs.
+## Рекомендации для маркетингового отдела
 
-3. **Yrabbit Channel Assessment**
-   - The Yrabbit channel, despite a low Cost of Acquisition (CAC = 0.21), has low conversion and sharply declining retention towards the end of the observed period.
-   - Conclusion: Yrabbit likely does not align with the app's target audience and should not receive additional investment until further analysis is conducted.
-  
-   - ## **Project Tools**
-- Python
-- Pandas
-- Seaborn
+- **США:** как ключевой рынок, требует пересмотра стратегий в каналах TipTop и FaceBoom для оптимизации бюджета и повышения качества трафика.
+- **Европа:** перераспределить бюджет с AdNonSence на более эффективные каналы — LeapBob, OppleCreativeMedia и WahooNetBanner.
+- **Органический трафик:** обратить особое внимание на вовлечение и удержание органических пользователей, так как они составляют значительную часть аудитории.
+- **ПК и Android:** увеличить акцент на этих пользователях для роста LTV и удержания.
+- **Перераспределение бюджета в США:** перенаправить средства с неэффективных источников на MediaTornado, RocketSuperAds и YRabbit.
+- **Удержание мобильных пользователей:** разработать целевые стратегии удержания, так как мобильные пользователи — ядро аудитории.
+- **Конкурентный и поведенческий анализ по Mac и iPhone:** провести углублённое исследование для корректировки стратегий привлечения и снижения расходов.
+
+### Оценка канала YRabbit
+
+Несмотря на низкую стоимость привлечения (**CAC = 0.21**), канал демонстрирует:
+- Низкую конверсию
+- Резкое снижение удержания к концу периода
+
+**Вывод:** YRabbit, вероятно, не соответствует целевой аудитории приложения. Дополнительные инвестиции в него нецелесообразны до проведения повторного анализа.
+
+## Используемые инструменты
+- Python  
+  - pandas  
+  - seaborn
+
 
