@@ -1,131 +1,101 @@
-# Analysis of Historical Game Sales Data, User and Critic Ratings, Genres, and Platforms
+ # Анализ исторических данных о продажах видеоигр, пользовательских и критических рейтингах, жанрах и платформах
 
-## Task
-We will analyze historical data on game sales, user and critic ratings, genres, and platforms (such as Xbox or PlayStation) to identify patterns that determine the success of a game. Based on this analysis, we will form recommendations for advertising campaigns in 2017.
+## Цель проекта
+На основе исторических данных о продажах игр, пользовательских и критических рейтингах, жанрах и платформах (например, Xbox или PlayStation) выявить закономерности, влияющие на успех игры.  
+На основе анализа сформулировать рекомендации для рекламной кампании на 2017 год.
 
-## Hypotheses
-- The average user ratings for **Xbox One** and **PC** platforms are the same.
-- The average user ratings for **Action** and **Sports** genres are different.
+## Проверка гипотез
 
-## 1. Hypothesis Testing
+### Гипотеза 1: Средние пользовательские рейтинги для платформ **Xbox One** и **PC** одинаковы
 
-### Hypothesis 1: The average user ratings for **Xbox One** and **PC** platforms are the same
+- **Нулевая гипотеза (H₀):** µ_Xbox = µ_PC  
+- **Альтернативная гипотеза (H₁):** µ_Xbox ≠ µ_PC  
+- **Результат:** p-value > 0.05 → нет оснований отклонять нулевую гипотезу.  
+**Вывод:** пользовательские оценки для Xbox One и PC статистически не различаются.
 
-For this hypothesis, we will conduct an **independent t-test**. The null hypothesis is that the average user ratings for **Xbox One** and **PC** are the same, while the alternative hypothesis is that they are different.
+### Гипотеза 2: Средние пользовательские рейтинги для жанров **Action** и **Sports** различаются
 
-**Null Hypothesis (H₀):** µ_Xbox = µ_PC  
-**Alternative Hypothesis (H₁):** µ_Xbox ≠ µ_PC
+- **Нулевая гипотеза (H₀):** µ_Action = µ_Sports  
+- **Альтернативная гипотеза (H₁):** µ_Action ≠ µ_Sports  
+- **Результат:** p-value < 0.05 → отклоняем нулевую гипотезу.  
+**Вывод:** пользовательские оценки между жанрами Action и Sports различаются.
 
-### Result:
+## Закономерности, влияющие на успех игр
 
-- **Decision:** Since the p-value is greater than 0.05, we **fail to reject** the null hypothesis. This means that, based on the available data, we do not have sufficient evidence to say that the average user ratings for **Xbox One** and **PC** are different. The ratings are similar for both platforms.
+### Предпочтения по платформам:
+- **Северная Америка:** популярны **PS4** и **Xbox One**, особенно в жанрах **Action**, **Shooter**, **Sports**.
+- **Европа:** высока популярность **PC**, а также PS4, с преобладанием тех же жанров.
+- **Япония:** наиболее популярна платформа **3DS**, при этом предпочтение отдается жанрам **RPG**, **Action**, **Fighting**.
 
-### Hypothesis 2: The average user ratings for **Action** and **Sports** genres are different
+### Популярность жанров:
+- **Action** и **Shooter** — самые популярные жанры по миру.
+- **Sports** — особенно важен для Северной Америки.
+- **RPG** и **Fighting** — в приоритете у японской аудитории.
 
-For this hypothesis, we will also apply an **independent t-test** to compare the average user ratings for the **Action** and **Sports** genres.
+### Роль пользовательских оценок:
+- Высокие пользовательские рейтинги коррелируют с лучшими продажами.
+- Различия в оценках между жанрами отражают предпочтения игроков и качество игр.
 
-**Null Hypothesis (H₀):** µ_Action = µ_Sports  
-**Alternative Hypothesis (H₁):** µ_Action ≠ µ_Sports
+## Рекомендации для рекламной кампании 2017 года
 
-### Result:
+### По регионам:
 
-- **Decision:** Since the p-value is significantly less than 0.05, we **reject** the null hypothesis. This means that there is sufficient evidence to suggest that the average user ratings for **Action** and **Sports** genres are different. These genres have different preferences among players.
+- **Европа:**  
+  - Сфокусироваться на рекламе игр для **PS4** и **PC**.  
+  - Жанры: **Action**, **Shooter**, **Sports**.  
+  - Рекомендуется продвигать как AAA-проекты, так и инди-игры, особенно на PC.
 
-## 2. Identifying Patterns that Determine Game Success
+- **Япония:**  
+  - Ориентироваться на платформу **3DS**.  
+  - Основные жанры: **RPG**, **Action**, **Fighting**.  
+  - Учитывать популярные франшизы при планировании кампаний.
 
-Based on the hypothesis testing results and historical analysis of game sales, user ratings, genres, and platforms, several factors influencing the success of a game can be identified:
+- **Северная Америка:**  
+  - Делать акцент на **PS4** и **Xbox One**.  
+  - Жанры: **Action**, **Shooter**, **Sports**.  
+  - Учитывать рейтинг **ESRB**, так как он влияет на решения о покупке.
 
-### Platform Preferences:
+### Учет рейтинга ESRB
+- В **Северной Америке** рейтинг ESRB имеет высокую значимость (например, "M" — только для взрослых).
+- В **Европе** и **Японии** влияние рейтинга меньше, но его всё равно стоит учитывать.
 
-- In **North America**, **PlayStation (PS4)** and **Xbox One** are the most popular platforms. Games that perform well on these platforms (especially in **Action**, **Shooter**, and **Sports** genres) tend to be successful.
-- In **Europe**, **PC** is a highly popular platform, with **Action**, **Shooter**, and **Sports** genres also being well-represented.
-- In **Japan**, the **3DS** platform is particularly popular, and preferred genres include **Role-Playing**, **Action**, and **Fighting**.
+### Роль критических и пользовательских отзывов
+- Высокие оценки от критиков и пользователей положительно влияют на продажи.
+- Особенно в США критика сильно влияет на решения о покупке — стоит учитывать это при построении маркетинговых стратегий.
 
-### Genre Popularity:
+### Стратегии продвижения:
 
-Genres also play a significant role in determining game success:
+1. **Локализованные рекламные кампании:** учитывать платформенные и жанровые предпочтения в каждом регионе.
+2. **Использование высоких рейтингов:** продвигать игры с высокими оценками для повышения доверия.
+3. **Промо по платформам:** эксклюзивные предложения для **PS4** или реклама **3DS** в Японии.
+4. **Инфлюенс-маркетинг:** сотрудничество с локальными блогерами и стримерами.
 
-- **Action** and **Shooter** genres are popular in most regions.
-- In **North America**, special attention should be given to **Sports** games, while in **Japan**, **Role-Playing** and **Fighting** games are more prevalent.
+## Заключение
 
-### User Ratings:
-
-Games with higher user ratings typically perform better in sales. Differences in ratings between genres (such as **Action** and **Sports**) reflect varying player preferences and game quality in those genres.
-
-## 3. Recommendations for the 2017 Advertising Campaign
-
-Based on the data analysis and hypothesis testing, several recommendations can be made for the 2017 advertising campaign, taking into account regional preferences, platforms, genres, and rating influences:
-
-### Recommendations by Region
-
-- **Europe:** 
-  - Focus on advertising games for **PS4** and **PC** platforms.
-  - Popular genres: **Action**, **Shooter**, **Sports**.
-  - It is recommended to promote both AAA games and indie projects, especially on **PC**.
-
-- **Japan:**
-  - Target advertising efforts on the **3DS** platform, with a focus on **Role-Playing**, **Action**, and **Fighting** genres.
-  - In Japan, there is a high popularity of certain franchises within these genres, which should be considered when planning campaigns.
-
-- **North America:**
-  - Focus on **PS4** and **Xbox One** games.
-  - Popular genres: **Action**, **Shooter**, **Sports**.
-  - It is important to consider the **ESRB rating**, as it plays a significant role in consumer decisions in this region.
-
-### Impact of ESRB Rating
-
-- In **North America**, the ESRB rating has a strong influence on purchasing decisions. For **M (Mature)** rated games, it is crucial to consider the target audience, as these games may not appeal to younger players.
-- In **Europe** and **Japan**, the ESRB rating is less impactful, but it is still important to take age restrictions and local preferences into account.
-
-### Influence of Critic and User Reviews
-
-- Both critic and user reviews play a key role in a game's success. Games with higher ratings tend to have better sales.
-- In **North America**, critic reviews are particularly influential, so it is important to monitor reviews and incorporate them into advertising strategies.
-
-### Advertising Strategy Recommendations:
-
-1. **Region-Specific Advertising Campaigns:**
-   - Tailor campaigns to regional preferences by focusing on popular platforms and genres for each market.
-   
-2. **Leveraging Positive Reviews:**
-   - Advertise games with high ratings from critics and users, as positive reviews increase consumer trust.
-
-3. **Platform-Specific Promotions:**
-   - Promote exclusive content for **PS4** in North America or focus on advertising **3DS** games in Japan.
-
-4. **Influencer Marketing:**
-   - Collaborate with local influencers in each region to promote games, especially among gamers.
-
-## 4. Conclusion
-
-Based on the analysis and hypothesis testing, we can conclude the following:
-
-- The average user ratings for **Xbox One** and **PC** are not significantly different.
-- The average user ratings for **Action** and **Sports** genres are different, suggesting distinct player preferences for these genres.
-
-For the 2017 advertising campaign, it is essential to consider regional preferences, platform and genre popularity, as well as the influence of ESRB ratings and critic reviews. Tailoring advertising campaigns to these factors will improve the chances of game success.
+- Средние пользовательские рейтинги для **Xbox One** и **PC** статистически не отличаются.
+- Средние рейтинги для жанров **Action** и **Sports** — различаются.
+- Рекламные кампании 2017 года должны учитывать региональные особенности, популярность жанров и платформ, рейтинг ESRB и влияние отзывов.
 
 ---
 
-## Project Tools
-- **Python**
-- **Pandas**
-- **Matplotlib**
-- **Seaborn**
-- **NumPy**
+## Используемые инструменты
+- **Python**  
+- **Pandas**  
+- **Matplotlib**  
+- **Seaborn**  
+- **NumPy**  
 - **SciPy**
 
-## Skills Used in the Project
-- **Data Preprocessing:** Handling missing values, transforming data types, and feature engineering.
-- **Exploratory Data Analysis (EDA):** Visualizing and summarizing data to uncover patterns, trends, and outliers.
-- **Descriptive Statistics:** Calculating measures like mean, median, mode, standard deviation, etc., to understand the distribution of data.
-- **Statistical Hypothesis Testing:** Conducting t-tests and other statistical tests to validate assumptions and draw conclusions from data.
+## Навыки, применённые в проекте
+- **Предобработка данных:** очистка, преобразование, обработка пропусков.  
+- **EDA (разведочный анализ данных):** визуализация и выявление закономерностей.  
+- **Описательная статистика:** среднее, медиана, стандартное отклонение и др.  
+- **Проверка статистических гипотез:** t-тесты и анализ различий между группами.
 
-## Keywords
-- **Data Processing**
-- **Scatterplot**
-- **Barplot**
-- **Statistical Test**
-- **t-test**
+
+
+
+
+
 
 
