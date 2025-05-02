@@ -1,26 +1,31 @@
-# **Mobile App User Behavior Analysis**
+# Анализ поведения пользователей мобильного приложения
 
-## **Customer**
-**Startup:** A mobile app for selling food products.
+## Заказчик
+**Стартап:** Мобильное приложение для продажи продуктов питания.
 
-## **Project Goal**
-Analyze customer behavior based on user logs and the results of an A/A/B experiment (changing the font throughout the app).
+## Цель проекта
+Проанализировать поведение пользователей на основе логов и результатов A/A/B-эксперимента (изменение шрифта в приложении).
 
-## **General Conclusion:**
-Key events in the app, such as the home screen and the offer screen, occur most frequently, indicating active use of the app's basic functions. A high number of transitions to the cart screen and successful payments shows that a significant portion of users go all the way from selecting products to purchasing them. **Number of users who went from the first step to payment: 47.7%.**
+## Общий вывод
+Ключевые события в приложении, такие как главный экран и экран предложений, происходят чаще всего, что указывает на активное использование базовых функций приложения.  
+Большое количество переходов к экрану корзины и успешных оплат говорит о том, что значительная часть пользователей проходит весь путь от выбора товаров до покупки.  
+**Доля пользователей, прошедших путь от первого шага до оплаты: 47.7%.**
 
-### **Key Insights:**
-- **Biggest User Drop:** 
-  - 38.1% of users do not go from the home screen to the offer catalog. This is the most significant drop in the funnel, indicating potential problems or shortcomings in the home screen interface or in the offers displayed on it. 
-- **User Flow Enhancements:**
-  - 19.2% of users proceed from the offer catalog to the product card.
-  - 13.5% of users move from the product card to successful payment.
-  - 48.0% of users complete payment.
+### Ключевые наблюдения:
+- **Наибольший отток пользователей:**  
+  - 38.1% пользователей не переходят с главного экрана к каталогу предложений. Это самый значительный разрыв в воронке, что может свидетельствовать о проблемах в интерфейсе главного экрана или в отображаемых предложениях.
 
-## **A/B Test Conclusion:**
-None of the events showed statistically significant differences between the control groups (246 and 247) and the experimental group (248). **This means that the font change did not have a significant impact on user behavior for all tested events.**
-## **Project Tools**
-- Python
-- Pandas
-- Seaborn
-- Plotly
+- **Поведение в воронке:**  
+  - 19.2% пользователей переходят из каталога предложений к карточке товара.  
+  - 13.5% — от карточки товара к успешной оплате.  
+  - 48.0% — завершают оплату.
+
+## Вывод по A/B-тесту
+Ни одно из событий не показало статистически значимых различий между контрольными группами (246 и 247) и экспериментальной группой (248).  
+**Это означает, что изменение шрифта не оказало значимого влияния на поведение пользователей по всем исследуемым метрикам.**
+
+## Используемые инструменты
+- Python  
+  - pandas  
+  - seaborn  
+  - plotly
