@@ -1,43 +1,45 @@
-# **Data-driven Business Decision Making**
+# Принятие бизнес-решений на основе данных
 
-**Customer**
+## Заказчик
+Онлайн-магазин
 
-Online store
+## Цель проекта
 
-**Project Goal**
+- Приоритизировать гипотезы, предложенные маркетинговым отделом.
+- Проанализировать результаты A/B-теста и принять решение на основе полученных данных.
 
-- Prioritize hypotheses from the list provided by the Marketing Department.
-- Analyze the results of A/B testing and make decisions based on the findings.
+## Возможные решения:
 
-**Possible Solutions:**
+1. Остановить тест и признать победившую группу.
+2. Остановить тест и зафиксировать отсутствие различий между группами.
+3. Продолжить тест.
 
-1. Stop the test and declare a winning group.
-2. Stop the test and note the absence of differences between groups.
-3. Continue the test.
+## Выводы
 
-## **Conclusion**
+На основе входных данных, предоставленных онлайн-магазином, было проведено исследование, по итогам которого сформулированы следующие рекомендации.
 
-Based on the input data provided by the online store, a study was conducted, and the following recommendations are made.
+### Приоритизация гипотез
 
-### Hypothesis Prioritization
-To prioritize hypotheses from the Marketing Department's list, focus on the following hypotheses:
-   - "Launch a promotion that gives a discount on a product on the customer's birthday."
-   - "Add two new traffic acquisition channels to increase user acquisition by 30%."
-   - "Add a subscription form to all main pages to build an email customer base."
+Если приоритет определяется по ожидаемому бизнес-эффекту, стоит сосредоточиться на следующих гипотезах:
+- Запустить акцию с предоставлением скидки в день рождения клиента.
+- Добавить два новых канала привлечения трафика для увеличения числа пользователей на 30%.
+- Разместить форму подписки на всех основных страницах для сбора базы email-клиентов.
 
-If prioritization is based on broad user engagement, the order of importance shifts as follows:
-   - "Add a subscription form to all main pages to build an email customer base."
-   - "Add product recommendation blocks to the site to boost conversion rates and average order value."
-   - "Add two new traffic acquisition channels to increase user acquisition by 30%."
+Если приоритет определяется по степени охвата пользователей, порядок изменяется следующим образом:
+- Разместить форму подписки на всех основных страницах.
+- Добавить блоки с рекомендациями товаров для повышения конверсии и среднего чека.
+- Добавить два новых канала привлечения трафика.
 
-### A/B Test Analysis
+### Анализ A/B-теста
 
-- Given statistically significant differences in the average number of orders per visitor and no significant differences in average order value, it is recommended to stop the test.
-- **Group B** demonstrated a significant increase in orders per visitor, confirmed by statistical analysis.
-- The average order value, while slightly higher in Group B, does not warrant further action.
+- При наличии статистически значимых различий в среднем числе заказов на пользователя, при этом отсутствии значимых различий в среднем чеке, рекомендуется **остановить тест**.
+- **Группа B** показала значимый рост количества заказов на пользователя — это подтверждено статистически.
+- Средний чек в группе B немного выше, но это различие не является основанием для отдельного действия.
 
-## **Project Tools**
-- Python
-- Pandas
-- Seaborn
-- Plotly
+## Используемые инструменты
+
+- Python  
+  - pandas  
+  - seaborn  
+  - plotly
+
