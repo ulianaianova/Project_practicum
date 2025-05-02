@@ -1,4 +1,7 @@
-# Project_practicum
-## 🚀 My Journey from Law to Data Analytics:
+## Учебные проекты
 
-I transitioned into **Data Analytics** from a legal background, where I specialized in analyzing laws and regulations. This shift required professional retraining, which I completed through the **Yandex.Workshop "Data Analytics" course**. Below, you'll find a collection of educational projects I've completed during the program, showcasing my new skills and analytical abilities.
+| № | Название проекта | Описание | Инструменты | Ссылка |
+|--|-------------------|----------|-------------|--------|
+| 1 | Мобильные приложения — Выделение групп пользователей на основе поведения | Анализ данных мобильного приложения «Ненужные вещи». Определение групп пользователей, которые чаще возвращаются в приложение и совершают целевое событие (просмотр контактов). | Python (pandas, numpy, math, datetime, matplotlib, seaborn, plotly, scipy.stats, statsmodels) | [Открыть проект](https://github.com/ulianaianova/Project_practicum/blob/main/Project_01_Mobile%20App/Mobile%20Apps%20-%20Identifying%20User%20Groups%20Based%20on%20Behavior.ipynb) |
+| 2 | Анализ рынка недвижимости Санкт-Петербурга | На основе данных сервиса Яндекс.Недвижимость определить зависимость цены квартиры от различных параметров и сформулировать предложения для системы отслеживания объявлений. | Python (pandas, matplotlib) | [Открыть проект](https://github.com/ulianaianova/Project_practicum/blob/main/Project_02_Analysis%20_real_estate_market/Research%20of%20advertisements%20for%20the%20sale%20of%20apartments.ipynb) |
+
