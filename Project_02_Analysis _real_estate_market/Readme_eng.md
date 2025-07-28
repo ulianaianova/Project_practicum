@@ -1,6 +1,6 @@
-# 🏠 Real Estate Market Analysis — Saint Petersburg
+# Real Estate Market Analysis — Saint Petersburg
 
-## 🎯 Project Objective  
+## Project Objective  
 Using data from **Yandex.Real Estate**, identify how the final sale price of an apartment depends on various features.  
 Additionally, provide recommendations on key parameters to include in a future ad monitoring system.
 
